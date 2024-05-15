@@ -1,0 +1,54 @@
+#root {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 15% 30%;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.add-todo{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.todo-list{
+  display: flex;
+  flex-direction: column !important;
+  gap: 2vh;
+}
+
+.todo-item{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center !important;
+  gap: 10% !important;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 10%;
+  width: 75% !important;
+}
+
+.text-container p {
+  margin: 0 !important;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row !important;
+  gap: 10%;
+}
+
