@@ -14,4 +14,4 @@ In frontend directory execute:
   - npm run dev
   - Web will be open on localhost:8080
 
-(Working on the Docker part)
+(Docker problems with VITE)
